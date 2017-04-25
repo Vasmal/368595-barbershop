@@ -1,0 +1,211 @@
+html,
+body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 1px solid;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.link-index {
+	float: left;
+}
+
+.main-navigation {
+  float: left;
+  max-width: 780px;
+  min-height: 70px;
+  outline: 1px solid;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+  outline: 1px solid;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.main-content {
+	padding-top: 54px;
+}
+
+.page-title {
+	margin: 0;
+	padding: 0;
+}
+
+.filter {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	outline :1px solid;
+}
+
+.filter-title {
+	margin: 0;
+	padding: 0;
+}
+
+.product {
+	width: 720px;
+	outline: 1px solid;
+	float: right;
+	font-size: 0;
+	margin-bottom: 25px;
+}
+
+.product-item {
+	width: 220px;
+	display: inline-block;
+	outline: 1px solid;
+	min-height: 286px;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.page-number {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	margin-left: 220px;
+	list-style: none;
+
+}
+
+.page-number li {
+	display: inline-block;
+	list-style: none;
+}
+
+.item-gallery {
+	float: left;
+	width: 460px;
+	outline: 1px solid;
+	font-size: 0;
+}
+
+.item-photo-big {
+	margin-bottom: 20px;
+}
+
+.item-photo-small:not(:last-child) {
+	margin-right: 20px;
+}
+
+.description {
+	float: right;
+	width: 400px;
+	outline: 1px solid;
+}
+
+.description-code {
+	float: right;
+	margin-bottom: 33px;
+}
+
+.description-header {
+	margin-bottom: 33px;
+}
+
+.description-text {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 37px;
+}
+
+.buy {
+	margin-bottom: 66px;
+}
+
+.description-title {
+	margin-bottom: 33px;
+}
